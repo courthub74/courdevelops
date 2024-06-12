@@ -1,0 +1,2872 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Footer Blue
+$footerblue: #060927;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+$squaresback: #33365B;
+// Technology Circle Colors
+$lightertechcircles: #0d1270;
+$bluertechcircles: #110F82;
+$darkertechcircles: #00313E;
+// Resume Button Green
+$resumebutton: #507E81;
+// Green Button Top
+$greentop: rgba(255, 255, 255, 0.664);
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
+$descriptiongrey2: #7a7bd3;
+$descriptionblue: #8091ED;
+// First Blue
+$firstblue: #58a6ff;
+$savethis: #7273ad;
+
+// Grey Button line
+// $buttongrey: rgba(255, 255, 255, 0.664);
+$buttongrey: #61677A;
+
+// WHOLE PAGE
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+// Portrait
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            .whole_page {
+                // display: none;
+                background-color: $darkblue;
+                height: 600vh;
+                height: 500vh;
+                // height: 400vh;
+                .home_section_content { 
+                    margin: 0 3em 0 3em;
+                    margin: 0 1em 0 1em;
+                    padding: 0em 0 4em 0;
+                    height: 100vh;
+                    // border-bottom: 1px solid white;
+                   .desktop_nav {
+                       display: flex;
+                       justify-content: space-between;
+                       align-items: center;
+                        .title_nav {
+                            margin: 4em 0 0 0;
+                            .section_title {
+                                opacity: 0;
+                            }
+                        }
+                        .home_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                               width: 2em;
+                               height: 2em;
+                            }
+                         }
+                   }
+                   .big_logo_and_square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1.5em;
+                        height: 78vh;
+                        .home_logo {
+                            #home_logo {
+                                border: 3px solid $nextgreen;
+                                border-radius: 50%;
+                                width: 50vw;
+                                height: 50vw;
+                                width: 15em;
+                                height: 15em;
+                            }
+                        }
+                        .home_square {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2em;
+                            header {
+                                background-color: $footerblue;
+                                width: 17em;
+                                // width: 40em;
+                                padding: 1em 0 1em 0;
+                                text-align: center;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                border-top: 3px solid $nextgreen;
+                                // box-shadow: 2px 2px 2px black;
+                            }
+                            .slogan {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                width: 80%;
+                                text-align: center;
+                                font-size: .9rem;
+                            }
+                            .socials_block {
+                                display: flex;
+                                align-items: center;
+                                gap: 1.5em;
+                                #github_home {
+                                    width: 2.1em;
+                                    height: 2.1em;
+                                }
+                                #linkedin_home {
+                                    width: 2.7em;
+                                    height: 2.7em;
+                                }
+                                #instagram_home {
+                                    width: 3em;
+                                    height: 3em;
+                                }
+                                #twitter_home {
+                                    width: 2.7em;
+                                    height: 2.7em;
+                                    width: 2.2em;
+                                    height: 2.2em;
+                                }
+                                // img {
+                                //     width: 2.3em;
+                                //     height: 2.3em;
+                                // }
+                            }
+                            .learn_more {
+                                border-top: 2px solid white;
+                                border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                background-color: $nextgreen;
+                                padding: 1em 5em;
+                                font-size: .9rem;
+                                font-weight: bold;
+                                color: white;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                                // box-shadow: 2px 2px 2px black;
+                            }
+                        }
+                   }
+                }
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                /// ABOUT SECTION
+                .about_section {
+                    background-color: $nextgreen;
+                    // background-color: $darkblue;
+                    height: 110vh;
+                    height: 100vh;
+                    overflow: hidden;
+                    // height: 80vh;
+                    .about_section_content {
+                        margin: 0 3em 0 3em;
+                        margin: 0 1em 0 1em;
+                        // border-bottom: 1px solid white;
+                        // padding-bottom: 6em;
+                        .title_nav {
+                           display: flex;
+                           justify-content: space-between;
+                           align-items: center;
+                           padding: 2em 0 0 0;
+                            .section_title {
+                                // margin-top: 1em;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                                
+                            }
+                        }
+                        .about_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        .about_words {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .9rem;
+                            line-height: 1.5em;
+                            margin: 1.5em 0 0 0;
+                            width: 100%;
+                        }
+                        .resume_dload {
+                            background-color: white;
+                            // padding: .5em .5em .5em .5em;
+                            padding: .7em 0  .7em 0;
+                            width: 14em;
+                            margin: 1em 0 0 0;
+                            text-align: center;
+                            a {
+                                color: $nextgreen;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: .8rem;
+                            }
+                        }
+                    }
+                }
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                ////////////////////////////////////////
+                /// PORTFOLIO SECTION
+                .portfolio_section {
+                    background-color: $darkblue;
+                    height: 150vh;
+                    height: 110vh;
+                    overflow: hidden;
+                    transition: .3s all ease-in;
+                    // border-bottom: 1px solid white;
+                    .portfolio_section_content {
+                        margin: 0 3em 0 3em;
+                        margin: 0 1em 0 1em;
+                        // border-bottom: 1px solid white;
+                        // padding-bottom: 6em;
+                        overflow: hidden;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                // margin-top: 1em;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .portfolio_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        ////////////////////////////
+                        // PORTFOLIO SQUARES SECTION
+                        .portfolio_squares {
+                            display: flex;
+                            flex-direction: column;
+                            // justify-content: center;
+                            // align-items: center;
+                            gap: 3em;
+                            margin-top: 70px;
+                            /////////////////////
+                            // EACH SQUARE
+                            .square {
+                                display: flex;
+                                // flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $footerblue;
+                                background-color: $squaresback;
+                                background-color: $portfolios;
+                                border-top: 3px solid $buttongrey;
+                                // border-top: 3px solid $nextgreen;
+                                height: 19%;
+                                height: 9em;
+                                width: 100%;
+                                transition: .3s all ease-in;
+                                box-shadow: 2px 2px 2px black;
+                                ////////////////////////////////////
+                                ////////////////////////////////////
+                                /// EVERYTHING INSIDE THE PORTFOLIO SQUARES
+                                .portfolio_square_content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 2em;
+                                    height: 100%;
+                                    // margin-top: 1.5em;
+                                    // background-color: yellow;
+                                    #workflow_app {
+                                        // background-color: yellow;
+                                        margin: 1.5em 0 0 0;
+                                        width: 13em;
+                                        height: 2.5em;   
+                                        transition: .3s all ease-in;
+                                    }
+                                    #workflow_app.tapped {
+                                        transition: .3s all ease-in;
+                                        margin-top: -22em;
+                                    }
+                                    #create_collab {
+                                        margin: 1.5em 0 0 0;
+                                        width: 12em;
+                                        height: 2em;
+                                        transition: .3s all ease-in;
+                                        z-index: 2;
+                                    }
+                                    // Do BELOW TO THE portfolio_two SECTION
+                                    #create_collab.tapped {
+                                        transition: .3s all ease-in;
+                                        margin-top: -22em;
+                                    }
+                                    #luminex_solutions {
+                                        margin: 1.5em 0 0 0;
+                                        width: 12em;
+                                        height: 1.5em;
+                                        z-index: 4;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #luminex_solutions.tapped {
+                                        transition: .3s all ease-in;
+                                        margin-top: -22em;
+                                    }
+                                }
+                                //////////////////////////////////
+                                //////////////////////////////////
+                                /// PORTFOLIO SQUARE ELEMENTS
+                                #portfolio_one {
+                                    // background-color: tan;
+                                    margin: 22em 0 0 0;
+                                    margin: 23em 0 0 0;
+                                }
+                                #portfolio_two {
+                                    // background-color: tan;
+                                    margin: 22em 0 0 0;
+                                    margin: 23em 0 0 0;
+                                }
+                                #portfolio_three {
+                                    // background-color: tan;
+                                    margin: 22em 0 0 0;
+                                    margin: 23em 0 0 0;
+                                }
+                                //////////////////////////////////
+                                //////////////////////////////////
+                                // Portfolio Clicked Content
+                                .portfolio_content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 2em;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    text-align: center;
+                                    transition: .4s all ease-in;
+                                    // position: absolute;
+                                    // Technologies used
+                                    .tech_used_portfolio {
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 1em;
+                                        font-weight: bold;
+                                        .tech_portfolio_circles {
+                                            display: flex;
+                                            // flex-direction: column;
+                                            gap: 1em;
+                                            .port_circle {
+                                                width: 7em;
+                                                height: 7em;
+                                                background-color: #0d1270;
+                                                // background-color: $lightertechcircles;
+                                                color: $buttongrey;
+                                                border-radius: 50%;
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                // border-top: 2px solid $buttongrey;
+                                                .project_technology {
+                                                    height: 2.5em;
+                                                    width: 2.5em;
+                                                }
+                                                // special ids for custom sizing
+                                                #js_mobile_tech_circle {
+                                                    height: 2.2em;
+                                                    width: 2.2em;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // Portfolio Project Features
+                                    .port_proj_features {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        gap: 1em;
+                                    }
+                                    // Portfolio Links
+                                    .portfolio_links {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 1em;
+                                        .port_github {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            // Each link emblem 
+                                            .github_portfolio {
+                                                width: 2.5em;
+                                                height: 2.5em;
+                                            }
+                                        }
+                                        .port_link {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            .link_portfolio {
+                                                width: 2.5em;
+                                                height: 2.5em;
+                                            }
+                                        }
+                                    }
+                                     // Portfolio Close Buttons 
+                                    .close_portfolio_button {
+                                        #port_close_one {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
+                                        #port_close_two {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
+                                        #port_close_three {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
+                                    }
+                                    .hover_logo {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            /////////////////////////////////
+                            /////////////////////////////////
+                            /// TO EXPAND THE PORTFOLIO SQUARES
+                            #portfolio_square_one.tapped {
+                                height: 30em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                            #portfolio_square_two.tapped {
+                                height: 30em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                            #portfolio_square_three.tapped {
+                                height: 30em;
+                                transition: .3s all ease-in;
+                                border-top: 2px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                        }
+                        //////////////////////////////////
+                        //////////////////////////////////
+                        /// PORTFOLIO CONTENTS
+                        .portfolio_content {
+                            // position: absolute;
+                            opacity: 0;
+                        }
+                        #workflow_app_content.tapped {
+                            opacity: 1;
+                        }
+                        #create_collab_content.tapped {
+                            opacity: 1;
+                        }
+                        #luminex_content.tapped {
+                            opacity: 1;
+                        }
+                    }
+                }
+                #portfolio_section_id.tapped {
+                    height: 150vh;
+                    transition: .3s all ease-in;
+                }
+                /////////////////////////////////
+                /////////////////////////////////
+                /////////////////////////////////
+                /// SKILLS SECTION
+                .skills_section {
+                    background-color: $nextgreen;
+                    // background-color: $darkblue;
+                    height: 110vh;
+                    // height: 120vh;
+                    overflow: hidden;
+                    .skills_section_content {
+                        margin: 0 3em 0 3em;
+                        margin: -6em 1em 0 1em;
+                        margin: 0em 1em 0 1em;
+                        // padding-bottom: 6em;
+                        // border-bottom: 1px solid white;
+                        // height: 100%;
+                        // width: 100%;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .skills_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                         /////////////////////////////////////////
+                        /// PHYSICAL CIRCLE
+                        .outer_circle {
+                            border: 3px solid $skillsteal;
+                            // border: 3px solid $nextgreen;
+                            // border: 3px solid red;
+                            background-color: $nextgreen;
+                            // background-color: $footerblue;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            // height: 8em;
+                            // width: 8em;
+                            height: 7em;
+                            width: 10em;
+                            height: 7em;
+                            width: 9em;
+                            box-shadow: 2px 2px 2px black;
+                            box-sizing: border-box;
+                            .back_circle {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                height: 90%;
+                                width: 90%;
+                                background-color: $footerblue;
+                                // background-color: $nextgreen;
+                                // border: 3px solid $skillsteal;
+                                box-sizing: border-box;
+                                cursor: pointer;
+                                .circle_stuff {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    gap: 1em;
+                                    //////////////////
+                                    margin: -2em 0 0 0;
+                                    cursor: pointer;
+                                    //////////////////////
+                                    /// STYLING FOR THE SKILL TOP LINE
+                                    hr {
+                                        border: 2px solid $jobdescription;
+                                        border: 2px solid $nextgreen;
+                                        border: 1px solid $skillsteal;
+                                        width: 100%;
+                                        width: 2em;
+                                        width: 2.5em;
+                                        margin-top: 1em;
+                                        // display: none;
+                                        opacity: 0;
+                                    }
+                                    ///////////////////////////
+                                    /// HOVERING STYLE FOR EACH LINE
+                                    #line_python.tapped {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_html.tapped {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_css.tapped {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    ////////////////////////////////////
+                                    /// CONTENTS INSIDE OF THE SKILL CIRCLE
+                                    .skill_contents {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // ALL OF THE LOGOS
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // HTML
+                                        #html {
+                                            width: 4em;
+                                            height: 4em;
+                                            width: 3.3em;
+                                            height: 3.3em;
+                                            position: absolute;
+                                        }
+                                        #html.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #html_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1rem;
+                                        }
+                                        #html_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// CSS
+                                        #css {
+                                            width: 4.2em;
+                                            height: 4.2em;
+                                            width: 3.8em;
+                                            height: 3.8em;
+                                            position: absolute;
+                                        }
+                                        #css.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #css_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1rem;
+                                        }
+                                        #css_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// SASS
+                                        #sass {
+                                            width: 3em;
+                                            height: 2.8em;
+                                            position: absolute; 
+                                        }
+                                        #sass.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #sass_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #sass_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// REACT
+                                        #react {
+                                            width: 3.5em;
+                                            height: 3.5em;
+                                            position: absolute; 
+                                        }
+                                        #react.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #react_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #react_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// NATIVE
+                                        #native {
+                                            width: 2.5em;
+                                            height: 2.5em;
+                                            width: 4em;
+                                            height: 4em;
+                                            position: absolute;
+                                            margin-top: -.2em; 
+                                        }
+                                        #native.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #native_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #native_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// FIGMA
+                                        #figma {
+                                            width: 2.1em;
+                                            height: 2.1em;
+                                            width: 3.7em;
+                                            height: 3.7em;
+                                            position: absolute;
+                                            margin-top: -.2em;  
+                                        }
+                                        #figma.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #figma_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #figma_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// JAVASCRIPT
+                                        #javascript {
+                                            // width: 2.6em;
+                                            // height: 2.6em;
+                                            width: 2.3em;
+                                            height: 2.7em;
+                                            width: 3em;
+                                            height: 3em;
+                                            position: absolute; 
+                                            // margin-top: -.4em;
+                                        }
+                                        #javascript.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #javascript_description {
+                                            opacity: 0;
+                                            // display: none;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                            font-size: .9rem;
+                                        }
+                                        #javascript_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // PYTHON
+                                        #python {
+                                            width: 2.5em;
+                                            height: 2.5em;
+                                            width: 3em;
+                                            height: 3em;
+                                            position: absolute;
+                                            margin-top: -.2em;
+                                        }
+                                        #python.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #python_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #python_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // DJANGO
+                                        #django {
+                                            width: 2em;
+                                            height: 2em;
+                                            width: 3em;
+                                            height: 3em;
+                                            margin-left: -.5em;
+                                            position: absolute;
+                                        }
+                                        #django.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #django_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #django_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // FIREBASE
+                                        #firebase {
+                                            width: 3em;
+                                            height: 2.7em;
+                                            width: 3em;
+                                            height: 3.5em;
+                                            position: absolute;
+                                            // margin-right: -.3em;
+                                            // margin-top: -.2em;
+                                        }
+                                        #firebase.tapped{
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #firebase_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #firebase_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // HEROKU
+                                        #heroku {
+                                            width: 2.1em;
+                                            height: 2.1em;
+                                            width: 3.2em;
+                                            height: 3.2em;
+                                            // margin-left: -.5em;
+                                            margin-top: -.2em;
+                                            position: absolute;
+                                        }
+                                        #heroku.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #heroku_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #heroku_description.tapped {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // AWS
+                                        #aws {
+                                            width: 3em;
+                                            height: 2.5em;
+                                            // margin-top: -.4em;
+                                            // margin-left: -.5em;
+                                            position: absolute;
+                                        }
+                                        #aws.tapped {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #aws_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #aws_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                    }
+                                }
+                            }
+                            /////////////////////////////////
+                            /////////////////////////////////
+                            /// TURN THE INNER CIRCLE COLOR
+                            #inner_circle_html.tapped {
+                                background-color: $footerblue;
+                                transition: .2s all ease-in;
+                            }
+                            #inner_circle_css.tapped {
+                                background-color: $footerblue;
+                                transition: .2s all ease-in;
+                            }
+                            #inner_circle_sass.tapped {
+                                background-color: $footerblue;
+                                transition: .2s all ease-in;
+                            }
+                        }
+                        ///////////////////////
+                        ///////////////////////
+                        // OUTER RING FOR HOVER
+                        #html_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #css_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #sass_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #react_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #python_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            box-shadow: none;
+                        }
+                    }
+                        // SKILLS CIRCLES POSITIONING
+                        .skills_circles {
+                            display: flex;
+                            // display: none;
+                            justify-content: center;
+                            flex-direction: column;
+                            height: 80%;
+                            height: 90%;
+                            margin-top: 50px;
+                            // margin-top: -60px;
+                            // GAP FOR THE TWO CHUNKS
+                            gap: 2em; 
+                            gap: 1.5em;
+                            // THE FIRST SIX
+                            .first_six {
+                                display: flex;
+                                flex-direction: column;
+                                // GAP FOR THE TOP TWO
+                                gap: 2em;
+                                gap: 1.5em;
+                                // automatically columned here
+                                .top_three {
+                                    display: flex;
+                                    // HORIZ GAP FOR TOP 3
+                                    gap: 1.5em;
+                                    gap: .5em;
+                                    // NOW try to make the gap adjustable
+                                    // gap: 5vw;
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    // HORIZ GAP FOR THE SECOND ROW
+                                    gap: 1.5em;
+                                    gap: .5em;
+                                }
+                            }
+                            // THE SECOND SIX
+                            .second_six {
+                                // VERT GAP FOR THE BOTTOM 3
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2em;
+                                gap: 1.5em;
+                               .top_three {
+                                display: flex;
+                                // HORIZ GAP FOR TOP 3
+                                gap: 1.5em;
+                                gap: .5em;
+                               }
+                               .bottom_three {
+                                    display: flex;
+                                    // HORIZ GAP FOR BOTTOM 3
+                                    gap: 1.5em;
+                                    gap: .5em;
+                               }
+                            }
+                        }
+                    }
+                }
+                ////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////
+                /// EXPERIENCE SECTION
+                .experience_section {
+                    background-color: $darkblue;
+                    // background-color: #00C6C3;
+                    height: 120vh;
+                    height: 110vh;
+                    .experience_section_content {
+                        margin: 0 3em 0 3em;
+                        margin: -5em 1em 0 1em;
+                        // height: 100%;
+                        // border-bottom: 2px solid white;
+                        // padding-bottom: 6em;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .experience_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        .experience_squares {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2em;
+                            // background-color: yellow;
+                            margin-top: 70px;
+                            .square {
+                                display: flex;
+                                // flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $footerblue;
+                                background-color: $squaresback;
+                                background-color: $portfolios;
+                                border-top: 3px solid $nextgreen;
+                                // border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $buttongrey;
+                                box-shadow: 2px 2px 2px black;
+                                height: 19%;
+                                height: 10em;
+                                width: 100%;
+                                transition: .3s all ease-out;
+                                .experience_square_content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    gap: 1em;
+                                    // background-color: #00C6C3;
+                                    width: 100%;
+                                    height: 100%;
+                                    margin-top: 4em;
+                                    // Individual Logos
+                                    #courdevelops {
+                                        width: 4.5em;
+                                        height: 4.5em;
+                                        margin: -.5em 0 0 -.2em;
+                                    }
+                                    p {
+                                        color: white;
+                                        // color: $firstblue;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                        font-size: 1rem;
+                                    }
+                                    #slea {
+                                        width: 4em;
+                                        height: 4em;
+                                        margin: -.5em 0 0 -.3em;
+                                    }
+                                    #r1rcm {
+                                        width: 3.8em;
+                                        height: 2.8em;
+                                        margin: 0 0 .5em -.3em;
+                                    }
+                                    .experience_rolls {
+                                        opacity: 0;
+                                        display: flex;
+                                        gap: 2em;
+                                        margin: 0 0 -3em 0;
+                                        transition: .3s all ease-in-out;
+                                        // background-color: $nextgreen;
+                                        // border-top: 2px solid $nextgreen;
+                                        // border-top: 2px solid $skillsteal;
+                                        p {
+                                            font-size: .7rem;
+                                            font-weight: lighter;
+                                            padding-top: 1em;
+                                            color: white;
+                                        }
+                                    }
+                                    .more_experience_info {
+                                        background: none;
+                                        border: none;
+                                        display: none;
+                                        .experience_more_button {
+                                            width: 2em;
+                                            height: 1em;
+                                        }
+                                    }
+                                }
+                            }
+                            /////////////////////////////////
+                            /////////////////////////////////
+                            /// EXPERIENCE SQUARES TO RESIZE
+                            #experience_square_one.tapped {
+                                height: 12em;
+                                transition: .3s all ease-in;
+                                border-top: 3px solid white;
+                                // border-top: 3px solid $firstblue;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                            #experience_square_two.tapped {
+                                height: 12em;
+                                transition: .3s all ease-in;
+                                border-top: 3px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                            #experience_square_three.tapped {
+                                height: 12em;
+                                transition: .3s all ease-in;
+                                border-top: 3px solid white;
+                                // border-top: 3px solid $skillsteal;
+                            }
+                            ////////////////////////////////
+                            ////////////////////////////////
+                            /// THE JOB DEETS BY ID
+                            #roll_one.tapped {
+                                opacity: 1;
+                            }
+                            #roll_two.tapped {
+                                opacity: 1;
+                            }
+                            #roll_three.tapped {
+                                opacity: 1;
+                            }
+                            // FOR WHEN I HAD THE ARROWS BUT NOW ITS THE LOGO AND TITLE
+                            ////////////////////////////////
+                            /// EXPERIENCE ARROW FLIPPED
+                            // #experience_more_info_one.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                            // #experience_more_info_two.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                            // #experience_more_info_three.tapped {
+                            //     rotate: 180deg;
+                            //     transition: .3s all ease-in;
+                            // }
+                        }
+                        ///////////////////////////////////////
+                        ///////////////////////////////////////
+                        /// FOR CHANGING THE BOX TOP COLOR
+                        #experience_square_one.tapped {
+                            border-top: 3px solid white;
+                        }
+                    }
+                }
+                //////////////////////////////////////
+                /// DESKTOP FOOTER SECTION
+                #footer_section_id {
+                   display: none;
+                }
+            }
+            //////////////////////////////////
+            // MOBILE FOOTER
+            .mobile_footer {
+                // display: none;
+                background-color: $jobdescription;
+                background-color: $footerblue;
+                border-top: 3px solid $nextgreen;
+                // border-top: 3px solid $skillsteal;
+                height: 7%;
+                .footer_elements {
+                    margin: 3em 0 0 0;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 2em;
+                    // gap: 3em;
+                    .socials_footer {
+                        display: flex;
+                        align-items: center;
+                        gap: 2.5em;
+                        gap: 8vw;
+                        // filter: opacity(80%);
+                        #github {
+                            height: 2em;
+                            width: 2em;
+                        }
+                        #linkedin {
+                            height: 2.4em;
+                            width: 2.4em;
+                        }
+                        #instagram {
+                            height: 2.9em;
+                            width: 2.9em;
+                        }
+                        #twitter {
+                            height: 1.8em;
+                            width: 1.8em;
+                        }
+                        #twitter_mobile {
+                            height: 1.9em;
+                            width: 1.9em;
+                            // background-color: #00313E;
+                        }
+                    }
+                    // CONTACT ME ARROW
+                    #contact_slide_up {
+                        width: 1.5em;
+                        height: 1em;
+                        margin-top: -.5em;
+                    }
+                    // CONTACT ME BUTTON
+                    .contact_me_mobile_footer {
+                        background-color: $footerblue;
+                        border: 3px solid white;
+                        // border-radius: 15px;
+                        border: none;
+                        color: white;
+                        // padding: .5em 4em;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        // text-decoration: underline;
+                        margin-top: -1.8em;
+                        font-size: 1.4rem;
+                        // width: 100%;
+                    } 
+                    // HAVE ELIMINATED THESE ON MOBILE
+                    .email_footer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        display: none;
+                    }
+                    // The NAV LIST AT FOOTER
+                    .footer_list {
+                        small {
+                            a {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                filter: opacity(30%);
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                    // THE COPYRIGHT AND SMALL LOGO
+                    .footer_logo {
+                        // margin-top: 1em;
+                        small {
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .7rem;
+                            gap: .5em;
+                            filter: opacity(30%);
+                            #footer_logo {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+// Landscape
+@media only screen and (orientation: landscape) and (max-width: 1199px) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            .whole_page {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (width: 812px) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            .whole_page {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (width: 1024px) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            .whole_page {
+                display: none;
+            }
+        }
+    }
+}
+
+
+// Desktop
+
+// 1200
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            // background-color: $darkblue;
+            height: 520vh;
+            // height: 485vh;
+            // ALL SECTIONS ARE UNDER THIS DIV
+            background-color: $darkblue;
+            .whole_page {
+                background-color: $darkblue;
+                .home_section_content {
+                    background-color: $darkblue;
+                    // Maybe it doesn't need a height here
+                    padding: 2em 5em 15em 5em;
+                    padding: 2em 5em 20em 5em;
+                    .desktop_nav {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        // margin-top: 2em;
+                        .section_title {
+                            p {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 3rem;
+                                font-weight: bold;
+                                color: white;
+                                opacity: 0;
+                            }
+                            #home_logo {
+                                width: 9em;
+                                height: 9em;
+                            }
+                        }
+                        .home_desktop_nav {
+                            ul {
+                                display: flex;
+                                gap: 20px;
+                                li {
+                                    list-style: none;
+                                    a {
+                                        color: white;
+                                        text-decoration: none;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                    }
+                                    #selected {
+                                        text-decoration: underline;
+                                    }
+                                    #contact {
+                                        background-color: white;
+                                        // background-color: $darkblue;
+                                        padding: .5em;
+                                        border-radius: 2px;
+                                        color: $darkblue;
+                                        // color: white;
+                                    }
+                                }
+                            }
+                        }
+                        ul {
+                            display: flex;
+                            gap: 5px;
+                            li {
+                                color: white;
+                            }
+                        }
+                    }
+                    .mobile_nav {
+                        display: none;
+                    }
+                    .big_logo_and_square {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 6em;
+                        .home_logo {
+                            // background-color: honeydew;
+                            // z-index: 5;
+                            z-index: 1;
+                            #home_logo {
+                                border-radius: 50%;
+                                border: 2px solid $nextgreen;
+                                // border: 2px solid $skillsteal;
+                            }
+                        }
+                        .home_square {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1em;
+                            // border: 3px solid $portfolios;
+                            // border: 3px solid $nextgreen;
+                            border-radius: 10px;
+                            header {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.8rem;
+                                font-weight: bold;
+                                background-color: $portfolios;
+                                background-color: $nextgreen;
+                                background-color: $footerblue;
+                                border-top: 2px solid $nextgreen;
+                                // border-top: 2px solid $skillsteal;
+                                padding: .5em 2.5em;
+                                margin: 0 0 0 -1.2em;
+                            }
+                            .slogan {
+                                color: $jobdescripgrey;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 1.2rem;
+                            }
+                            .socials_block {
+                                display: flex;
+                                align-items: center;
+                                gap: 3em;
+                                // filter: opacity(80%);
+                                #github_home {
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                #linkedin_home {
+                                    width: 2.5em;
+                                    height: 2.5em;
+                                }
+                                #instagram_home {
+                                    width: 2.8em;
+                                    height: 2.8em;
+                                }
+                                #twitter_home {
+                                    width: 2.3em;
+                                    height: 2.3em;
+                                    width: 1.9em;
+                                    height: 1.9em;
+                                }
+                            }
+                            .learn_more {
+                                background-color: $footerblue;
+                                background-color: #bbbcd3;
+                                background-color: #A7A8CD;
+                                background-color: $nextgreen;
+                                // background-color: $skillsteal;
+                                color: white;
+                                font-weight: bold;
+                                // color: $footerblue;
+                                padding: 1em 7em;
+                                border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                font-family: 'Inter', sans-serif;
+                                font-size: .9rem;
+                                font-weight: bold;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    
+                }
+                .about_section {
+                    background-color: $nextgreen;
+                    // background-color: $darkblue;
+                    // background-color: $skillsteal;
+                    padding: 2em 2em;
+                    // padding: 10em 2em;
+                    .about_section_content {
+                        // background-color: $nextgreen;
+                        padding: 1em 0 22em 0;
+                        .title_nav {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            // margin-top: -8em;
+                            padding: 0em 5em 2em 5em;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 3rem;
+                                font-weight: bold;
+                                color: white;
+                            }
+                            .about_desktop_nav {
+                                margin: -1em -2em 0 0;
+                                ul {
+                                    display: flex;
+                                    gap: 20px;
+                                    li {
+                                        list-style: none;
+                                        a {
+                                            color: white;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        #selected {
+                                            text-decoration: underline;
+                                        }
+                                        #contact_about {
+                                            background-color: white;
+                                            // background-color: $darkblue;
+                                            padding: .5em;
+                                            border-radius: 2px;
+                                            color: $nextgreen;
+                                            // color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .mobile_nav {
+                                display: none;
+                            }
+                        }
+                        .about_words {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: left;
+                            // justify-content: center;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1rem;
+                            color: white;
+                            width: 60%;
+                            line-height: 2em;
+                            margin: 6em 0 0 5em;
+                            // margin: 10em 0 0 17em;
+                        }
+                        .resume_dload {
+                            background-color: white;
+                            // background-color: $nextgreen;
+                            // background-color: $darkblue;
+                            border-top: 1px solid rgba(255, 255, 255, 0.664);
+                            padding: .5em;
+                            margin: 2em 0 0 0;
+                            width: 10vw;
+                            text-align: center;
+                            // border-top: 2px solid rgba(255, 255, 255, 0.664);
+                            // border-top: 2px solid rgb(36, 158, 36);
+                            // border-top: 2px solid $darkblue;
+                            a {
+                                color: $nextgreen;
+                                // color: $skillsteal;
+                                // color: white;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: .9rem;
+                                // font-size: .8vw;
+                            }
+                        }
+                    }
+                }
+                //////////////////////////////////////
+                //////////////////////////////////////
+                //////////////////////////////////////
+                //////////////////////////////////////
+                //////////////////////////////////////
+                /// PORTFOLIO SECTION
+                .portfolio_section {
+                    background-color: $darkblue;
+                    // height: 100vh;
+                    padding: 3em 0 12em 0;
+                    .portfolio_section_content {
+                        // padding here
+                        .title_nav {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0em 5em 2em 5em;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 3rem;
+                                font-weight: bold;
+                                color: white;
+                            }
+                            .portfolio_desktop_nav {
+                                margin: -1em -2em 0 0;
+                                margin: -1em 0em 0 0;
+                                ul {
+                                    display: flex;
+                                    gap: 20px;
+                                    li {
+                                        list-style: none;
+                                        a {
+                                            color: white;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        #selected {
+                                            text-decoration: underline;
+                                        }
+                                        #contact_portfolio {
+                                            background-color: white;
+                                            // background-color: $darkblue;
+                                            padding: .5em;
+                                            border-radius: 2px;
+                                            color: $darkblue;
+                                            // color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .mobile_nav {
+                                display: none;
+                            }
+                        }
+                        // PORTFOLIO SQUARES
+                        .portfolio_squares {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2em;
+                            gap: 45px;
+                            gap: 2%;
+                            margin: 2em 0 0 0;
+                            .square {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+                                background-color: $footerblue;
+                                background-color: $squaresback;
+                                // padding: 15em 3em;
+                                padding: 15px;
+                                height: 35em;
+                                width: 27em;
+                                width: 25.5%;
+                                border-top: 3px solid $nextgreen;
+                                border-top: 3px solid $skillsteal;
+                                border-top: 3px solid $buttongrey;
+                                box-shadow: 2px 2px 2px black;
+                                // THE PORTFOLIO SQUARE CONTENTS
+                                .portfolio_square_content {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // FOR THE TITLES MAIN POSITIONING
+                                    img {
+                                        // background-color: #00313E;
+                                        position: absolute;
+                                        transition: .5s all ease-in;
+                                    }
+                                    // FOR THE Dissapearing at HOVER
+                                    #workflow_app.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-out;
+                                    }
+                                    #create_collab.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-out;
+                                    }
+                                    #luminex_solutions.hover {
+                                        opacity: 0;
+                                        transition: .3s all ease-out;
+                                    }
+                                    /////////////////////////////
+                                    /////////////////////////////
+                                    /// PORTFOLIO HOVERED CONTENT
+                                    .portfolio_content {
+                                        opacity: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        color: white;
+                                        gap: 4em;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        text-align: center;
+                                        transition: .4s all ease-in-out;
+                                        box-sizing: border-box;
+                                        ////////////////////////////
+                                        ////////////////////////////
+                                        /// HOVER IMAGE
+                                        .hover_logo {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        // Each Logo id for sizing
+                                        #workflow_app_small {
+                                            width: 16em;
+                                            height: 3em;
+                                        }
+                                        #create_collab_small {
+                                            width: 15em;
+                                            height: 2.5em;
+                                        }
+                                        #luminex_solutions_small {
+                                            width: 14.5em;
+                                            height: 1.9em;
+                                        }
+                                        /////////////////////////////
+                                        /////////////////////////////
+                                        /// Portfolio Content Words
+                                        .port_content_words {
+                                            font-family: 'Inter', sans-serif;
+                                            color: white;
+
+                                        }
+                                        /////////////////////////////
+                                        /////////////////////////////
+                                        /// Technologies Used
+                                        .tech_used_portfolio {
+                                            display: flex;
+                                            flex-direction: column;
+                                            gap: 1em;
+                                            font-weight: bold;
+                                            .tech_portfolio_circles {
+                                                display: flex;
+                                                gap: 1em;
+                                                .port_circle {
+                                                    width: 7em;
+                                                    height: 7em;
+                                                    background-color: #0d1270;
+                                                    // background-color: $bluertechcircles;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: 6em;
+                                                    // padding: 2em;
+                                                    // border-top: 2px solid $buttongrey;
+                                                    // THE ICONS
+                                                    .project_technology {
+                                                        width: 2.5em;
+                                                        height: 2.5em;
+                                                        margin: -1.5em 0 0 0;
+                                                    }
+                                                    #exp_port {
+                                                        width: 2.2em;
+                                                        height: 2.2em;
+                                                    }
+                                                    p {
+                                                        color: $buttongrey;
+                                                        margin-top: 3em;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        // Portfolio Project Features
+                                        .port_proj_features {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            gap: 1em;
+                                        }
+                                        // Portfolio Links
+                                        .portfolio_links {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 5em;
+                                            margin: 0 0 0 -2.5em;
+                                            .port_github {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                // Each link emblem 
+                                                .github_portfolio {
+                                                    width: 2.5em;
+                                                    height: 2.5em;
+                                                }
+                                            }
+                                            .port_link {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .link_portfolio {
+                                                    width: 2.5em;
+                                                    height: 2.5em;
+                                                }
+                                            }
+                                        }
+                                         // Portfolio Close Buttons 
+                                        .close_portfolio_button {
+                                            display: none;
+                                        }
+                                    }
+                                    ///////////////////////////
+                                    /// HOVER CONTENT BY ID
+                                    #workflow_app_content.hover {
+                                        opacity: 1;
+                                    }
+                                    #create_collab_content.hover {
+                                        opacity: 1;
+                                    }
+                                    #luminex_content.hover {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            ////////////////////////////
+                            /// SQUARES BY ID TO LIGHT THE TOP
+                            #portfolio_square_one.hover {
+                                border-top: 2px solid white;
+                            }
+                            #portfolio_square_two.hover {
+                                border-top: 2px solid white;
+                            }
+                            #portfolio_square_three.hover {
+                                border-top: 2px solid white;
+                            }
+                        }
+                    }
+                }
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /// SKILLS SECTION
+                .skills_section {
+                    background-color: $nextgreen;
+                    // background-color: $darkblue;
+                    // height: 100vh;
+                    padding: 3em 0 18em 0;
+                    .skills_section_content {
+                        // padding here
+                        .title_nav {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0em 5em 2em 5em;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 3rem;
+                                font-weight: bold;
+                                color: white;
+                            }
+                            .skills_desktop_nav {
+                                margin: 0 0em 0 0;
+                                ul {
+                                    display: flex;
+                                    gap: 20px;
+                                    li {
+                                        list-style: none;
+                                        a {
+                                            color: white;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        #selected {
+                                            text-decoration: underline;
+                                        }
+                                        #contact_skills {
+                                            background-color: white;
+                                            // background-color: $darkblue;
+                                            padding: .5em;
+                                            border-radius: 2px;
+                                            color: $nextgreen;
+                                            // color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .mobile_nav {
+                                display: none;
+                            }
+                        }
+                        // SKILLS CIRCLES 
+                        // Physical circle
+                        .outer_circle {
+                            height: 12vw;
+                            width: 12vw;
+                            border: 3px solid $skillsteal;
+                            background-color: $nextgreen;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                            .back_circle {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                height: 11vw;
+                                width: 11vw;
+                                height: 90%;
+                                width: 90%;
+                                background-color: $footerblue;
+                                // border: 3px solid $skillsteal;
+                                box-sizing: border-box;
+                                cursor: pointer;
+                                .circle_stuff {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    gap: 2em;
+                                    //////////////////
+                                    margin: -2em 0 0 0;
+                                    cursor: pointer;
+                                    //////////////////////
+                                    /// STYLING FOR THE SKILL TOP LINE
+                                    hr {
+                                        border: 2px solid $jobdescription;
+                                        border: 2px solid $nextgreen;
+                                        border: 1px solid $skillsteal;
+                                        width: 100%;
+                                        width: 5em;
+                                        opacity: 0;
+                                    }
+                                    ////////////////////////////////
+                                    ////////////////////////////////
+                                    /// HOVERING STYLE FOR EACH LINE
+                                    #line_python.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_html.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_css.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_sass.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_react.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_figma.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    #line_figma.hover {
+                                        border: 1px solid $jobdescription;
+                                        transition: .2s all ease-in;
+                                    }
+                                    ////////////////////////////////////
+                                    /// CONTENTS INSIDE OF THE SKILL CIRCLE
+                                    .skill_contents {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // margin: -1.5em 0 0 0;
+                                        // position: fixed;
+                                        //////////////////////////
+                                        // flex-direction: column;
+
+
+                                        // ALL OF THE LOGOS
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // HTML
+                                        #html {
+                                            width: 4.5em;
+                                            height: 4.5em;
+                                            position: absolute;
+                                        }
+                                        #html.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #html_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #html_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// CSS
+                                        #css {
+                                            width: 5em;
+                                            height: 5.2em;
+                                            position: absolute;
+                                        }
+                                        #css.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #css_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #css_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// SASS
+                                        #sass {
+                                            width: 4em;
+                                            height: 4em;
+                                            position: absolute; 
+                                        }
+                                        #sass.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #sass_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #sass_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// REACT
+                                        #react {
+                                            width: 4em;
+                                            height: 4em;
+                                            position: absolute; 
+                                        }
+                                        #react.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #react_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #react_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// NATIVE
+                                        #native {
+                                            width: 5em;
+                                            height: 5em;
+                                            position: absolute; 
+                                        }
+                                        #native.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #native_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #native_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// FIGMA
+                                        #figma {
+                                            width: 4em;
+                                            height: 4em;
+                                            position: absolute; 
+                                        }
+                                        #figma.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #figma_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #figma_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        /// JAVASCRIPT
+                                        #javascript {
+                                            width: 4.5em;
+                                            height: 4.5em;
+                                            width: 4em;
+                                            height: 4em;
+                                            position: absolute; 
+                                        }
+                                        #javascript.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #javascript_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #javascript_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // PYTHON
+                                        #python {
+                                            width: 3.5em;
+                                            height: 3.5em;
+                                            position: absolute;
+                                        }
+                                        #python.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #python_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #python_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // DJANGO
+                                        #django {
+                                            width: 3.5em;
+                                            height: 3.5em;
+                                            margin-left: -.5em;
+                                            position: absolute;
+                                        }
+                                        #django.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #django_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #django_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // FIREBASE
+                                        #firebase {
+                                            width: 3.7em;
+                                            height: 3.7em;
+                                            position: absolute;
+                                        }
+                                        #firebase.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #firebase_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #firebase_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // HEROKU
+                                        #heroku {
+                                            width: 3.5em;
+                                            height: 3.5em;
+                                            // margin-left: -.5em;
+                                            position: absolute;
+                                        }
+                                        #heroku.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #heroku_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #heroku_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                        //////////////////////////
+                                        //////////////////////////
+                                        // AWS
+                                        #aws {
+                                            width: 4.5em;
+                                            height: 3.5em;
+                                            // margin-left: -.5em;
+                                            position: absolute;
+                                        }
+                                        #aws.hover {
+                                            opacity: 0;
+                                            transition: .3s all ease-in;
+                                        }
+                                        #aws_description {
+                                            opacity: 0;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1.2rem;
+                                        }
+                                        #aws_description.hover {
+                                            opacity: 1;
+                                            transition: .5s all ease-in;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // OUTER RING FOR HOVER
+                        #html_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #python_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #css_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #sass_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #react_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #native_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #figma_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #javascript_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box; 
+                        }
+                        #python_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #django_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #firebase_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #heroku_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        #aws_skill.hover {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                        }
+                        // POSITIONING OF THE CIRCLES
+                        .skills_circles {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2em;
+                            // background-color: #00C6C3;
+                            padding: 7em 0 0 0;
+                            .first_six {
+                                display: flex;
+                                gap: 2em;
+                                .top_three {
+                                    display: flex;
+                                    gap: 2em;
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    gap: 2em;
+                                }
+                            }
+                            .second_six {
+                                display: flex;
+                                gap: 2em;
+                                .top_three {
+                                    display: flex;
+                                    gap: 2em;
+                                }
+                                .bottom_three {
+                                    display: flex;
+                                    gap: 2em;
+                                }
+                            }
+                        }
+                    }
+                }
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /////////////////////////////////////////////
+                /// EXPERIENCE SECTION
+                .experience_section {
+                    background-color: $darkblue;
+                    height: 90vh;
+                    // height: 105vh;
+                    padding: 3em 0 1em 0;
+                    // padding: 3em 0 0em 0;
+                    .experience_section_content {
+                        // background-color: #58a6ff;
+                        // height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2em;
+                        .title_nav {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 0em 5em 2em 5em;
+                            .section_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 3rem;
+                                font-weight: bold;
+                                color: white;
+                            }
+                            .experience_desktop_nav {
+                                margin: 0 0em 0 0;
+                                ul {
+                                    display: flex;
+                                    gap: 20px;
+                                    li {
+                                        list-style: none;
+                                        a {
+                                            color: white;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        #selected {
+                                            text-decoration: underline;
+                                        }
+                                        #contact_experience {
+                                            background-color: white;
+                                            // background-color: $darkblue;
+                                            padding: .5em;
+                                            border-radius: 2px;
+                                            color: $darkblue;
+                                            // color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .mobile_nav {
+                                display: none;
+                            }
+                        }
+                        // EXPERIENCE SQUARES
+                        .experience_squares {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2em;
+                            gap: 2%;
+                            margin: 2em 0 7em 0;
+                            margin: -1em 0 7em 0;
+                            // margin: 2em 0 5em 0;
+                            // background-color: red;
+                            box-sizing: border-box;
+                            .square {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+                                background-color: $footerblue;
+                                background-color: $squaresback;
+                                // padding: 15em 3em;
+                                height: 29em;
+                                width: 27em;
+                                width: 25.5%;
+                                width: 28%;
+                                border-top: 3px solid $nextgreen;
+                                border-top: 3px solid $skillsteal;
+                                border-top: 2px solid $buttongrey;
+                                box-shadow: 2px 2px 2px black;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                                .experience_square_content {
+                                    margin-top: -4em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 2em;
+                            
+                                    // background-color: #00C6C3;
+                                    #courdevelops {
+                                        width: 7em;
+                                        height: 7em;
+                                    }
+                                    #slea {
+                                        width: 6em;
+                                        height: 6em;
+                                    }
+                                    #r1rcm {
+                                        width: 5.5em;
+                                        height: 4.5em;
+                                        margin-top: .8em;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 1.3rem;
+                                        // font-size: .9rem;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                        // background-color: #00313E;
+                                    }
+                                    .more_experience_info {
+                                        display: none;
+                                    }
+                                    .experience_rolls {
+                                        opacity: 0;
+                                        display: flex;
+                                        gap: 2em;
+                                        margin: 0 0 -3em 0;
+                                        transition: .3s all ease-in-out;
+                                        // background-color: $nextgreen;
+                                        // border-top: 2px solid $nextgreen;
+                                        // border-top: 2px solid $skillsteal;
+                                        p {
+                                            font-size: .8rem;
+                                            font-size: 1rem;
+                                            font-weight: lighter;
+                                            font-family: 'Roboto', sans-serif;
+                                            padding-top: .5em;
+                                        }
+                                    }
+                                    .experience_rolls.hover {
+                                        opacity: 1;
+                                        transition: .3s all ease-in-out;
+                                    }
+                                }
+                            }
+                            #experience_square_one.hover {
+                                border-top: 5px solid $skillsteal;
+                                border-top: 5px solid $jobdescription;
+                                border-top: 2px solid white;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                            }
+                            #experience_square_two.hover {
+                                border-top: 5px solid $skillsteal;
+                                border-top: 5px solid $jobdescription;
+                                border-top: 2px solid white;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                            }
+                            #experience_square_three.hover {
+                                border-top: 5px solid $skillsteal;
+                                border-top: 5px solid $jobdescription;
+                                border-top: 2px solid white;
+                                transition: .3s all ease-in-out;
+                                box-sizing: border-box;
+                            }
+                        }
+                        //////////////////////////////////////////////////
+                        // DESKTOP FOOTER
+                        #footer_section_id {
+                            // display: none;
+                            // background-color: #060927;
+                            // position: static;
+                            // Maybe it doesn't need a height here
+                            
+                            .footer_section_content {
+                                padding: 2em 5em 2em 5em;
+                                border-top: $nextgreen 3px solid;
+                                background-color: #060927;
+                                height: 8em;
+                                margin: -5em 0 0 0;
+                                // border-top: 3px solid $skillsteal;
+                                filter: opacity(90%);
+                                // width: 100%;
+                                .footer_elements {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    .socials_footer {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 2.5em;
+                                        gap: 2vw;
+                                        padding-top: 1em;
+                                        // filter: opacity(80%);
+                                        #github {
+                                            height: 2.5em;
+                                            width: 2.5em;
+                                            height: 2em;
+                                            width: 2em;
+                                        }
+                                        #linkedin {
+                                            height: 3em;
+                                            width: 3em;
+                                            height: 2.3em;
+                                            width: 2.3em;
+                                        }
+                                        #instagram {
+                                            height: 3.4em;
+                                            width: 3.4em;
+                                            height: 2.8em;
+                                            width: 2.8em;
+                                        }
+                                        #twitter {
+                                            height: 3em;
+                                            width: 3em;
+                                        }
+                                        #twitter_desk {
+                                            height: 2.6em;
+                                            width: 2.6em;
+                                            height: 1.9em;
+                                            width: 1.9em;
+                                        }
+                                    }
+                                    .email_footer {
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 5px;
+                                        // margin-left: -70em;
+                                        // For the top of the email input
+                                        label {
+                                            font-family: 'Inter', sans-serif;
+                                            color: white;
+                                            font-weight: bold;
+                                            filter: opacity(90%);
+                                        }
+                                        .email_submit {
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 1em;
+                                            #email_address {
+                                                padding: 1em 1em;
+                                            }
+                                            #email_address.contact {
+                                                border: 2px solid $jobdescription;
+                                                border: 2px solid yellow;
+                                                transition: .3s all ease-out;
+                                            }
+                                            #name_text {
+                                                padding: 1em 1em;
+                                            }
+                                            #name_text.contact {
+                                                border: 2px solid $jobdescription;
+                                                border: 2px solid yellow;
+                                                transition: .3s all ease-out;
+                                            }
+                                            input {
+                                                padding: 1em 4em;
+                                                border: none;
+                                                border: 2px solid white;
+                                                background: none;
+                                                color: $jobdescription;
+                                                color: white;
+                                                transition: .3s all ease-out;
+                                                // filter: opacity(80%);
+                                            }
+                                            input:focus {
+                                                border: none;
+                                            }
+                                            input.contact {
+                                                border: 2px solid yellow;
+                                                transition: .3s all ease-out;
+                                            }
+                                            ::placeholder {
+                                                color: gray;
+                                                color: $footerblue;
+                                                color: $nextgreen;
+                                                color: $jobdescription;
+                                                color: white;
+                                                filter: opacity(75%);
+                                                font-family: 'Inter', sans-serif;
+                                                text-align: center;
+                                            }
+                                            button {
+                                                border: 2px solid $jobdescription;
+                                                border: 2px solid white;
+                                                border-left: none;
+                                                color: $jobdescription;
+                                                color: white;
+                                                color: $footerblue;
+                                                background: none;
+                                                background-color: white;
+                                                padding: 1em 3em;
+                                                font-weight: bold;
+                                                cursor: pointer;
+                                                transition: .3s all ease-out;
+                                            }
+                                            button.contact {
+                                                background-color: $jobdescription;
+                                                background-color: yellow;
+                                                border: 2px solid yellow;
+                                                color: $footerblue;
+                                                
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                                .footer_logo {
+                                    small {
+                                        color: white;
+                                        display: flex;
+                                        align-items: center;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .75rem;
+                                        gap: .5em;
+                                        padding-top: 1em;
+                                        filter: opacity(30%);
+                                        #footer_logo {
+                                            width: 2em;
+                                            height: 2em;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // CONTACT NOT FOR DISPLAY ON DESK
+                .contact_section {
+                    display: none;
+                }
+                // MOBILE FOOTER NO DISPLAY
+                .mobile_footer {
+                    display: none;
+                    background-color: $jobdescription;
+                    background-color: $footerblue;
+                    border-top: 3px solid $nextgreen;
+                    padding: 0 2em 0 2em;
+                    height: 8em;
+                    .footer_elements {
+                        margin: 2em 4em 0 4em;
+                        display: flex;
+                        align-items: center;
+                        // flex-direction: column;
+                        justify-content: space-between;
+                        gap: 3em;
+                        .socials_footer {
+                            display: flex;
+                            align-items: center;
+                            gap: 2.5em;
+                            // gap: 10vw;
+                            // filter: opacity(80%);
+                            #github {
+                                height: 2.5em;
+                                width: 2.5em;
+                            }
+                            #linkedin {
+                                height: 3em;
+                                width: 3em;
+                            }
+                            #instagram {
+                                height: 3.4em;
+                                width: 3.4em;
+                            }
+                            #twitter {
+                                height: 2.6em;
+                                width: 2.6em;
+                                // background-color: #00313E;
+                            }
+                            // #twitter_desk {
+                            //     height: 2.6em;
+                            //     width: 2.6em;
+                            //     background-color: #00313E;
+                            // }
+                            #twitter_mobile {
+                                height: 2.6em;
+                                width: 2.6em;
+                                // background-color: #00313E;
+                            }
+                        }
+                        .email_footer {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            display: none;
+                            // For the top of the email input
+                            label {
+                                font-family: 'Inter', sans-serif;
+                                color: white;
+                                font-weight: bold;
+                                filter: opacity(90%);
+                            }
+                            .email_submit {
+                                display: flex;
+                                align-items: center;
+                               
+                                input {
+                                    padding: 1em 8em;
+                                    padding: 1em 7vw;
+                                    // border-top-left-radius: 5px;
+                                    // border-bottom-left-radius: 5px;
+                                    border: none;
+                                    border: 2px solid $jobdescription;
+                                    border: 2px solid white;
+                                    background: none;
+                                    color: $jobdescription;
+                                    color: white;
+                                    // filter: opacity(80%);
+                                }
+                                input:focus {
+                                    border: 2px solid $jobdescription;
+                                }
+                                ::placeholder {
+                                    color: gray;
+                                    color: $footerblue;
+                                    color: $nextgreen;
+                                    color: $jobdescription;
+                                    color: white;
+                                    // filter: opacity(75%);
+                                    font-family: 'Inter', sans-serif;
+                                    // font-weight: bold;
+                                    // background-color: red;
+                                    text-align: center;
+                                }
+                                button {
+                                    border: 2px solid $jobdescription;
+                                    border: 2px solid white;
+                                    border-left: none;
+                                    // border-top-right-radius: 5px;
+                                    // border-bottom-right-radius: 5px;
+                                    color: $jobdescription;
+                                    color: white;
+                                    color: $footerblue;
+                                    background: none;
+                                    background-color: white;
+                                    padding: 1em 2em;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    // filter: opacity(80%);
+                                }
+                                // button:hover {
+                                //     // background-color: white;
+                                //     // border: 2px solid $jobdescripgrey;
+                                //     border: 2px solid $jobdescription;
+                                
+                                //     background-color: $jobdescription;
+                                
+                                //     border-left: none;
+                                //     transition: .2s all ease-in;
+                                // }
+                            }
+                        }
+                        .footer_logo {
+                            small {
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                font-family: 'Inter', sans-serif;
+                                font-size: .9rem;
+                                gap: .5em;
+                                filter: opacity(80%);
+                                #footer_logo {
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                            }
+                        }
+                    }
+              }
+            }
+        }
+    }
+}
