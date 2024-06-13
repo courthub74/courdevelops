@@ -567,12 +567,11 @@ $buttongrey: #61677A;
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            // height: 8em;
-                            // width: 8em;
-                            height: 7em;
-                            width: 10em;
                             height: 7em;
                             width: 9em;
+                            // This is the Size for smaller circles
+                            height: 6em;
+                            width: 6em;
                             box-shadow: 2px 2px 2px black;
                             box-sizing: border-box;
                             .back_circle {
@@ -634,10 +633,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         // HTML
                                         #html {
-                                            width: 4em;
-                                            height: 4em;
                                             width: 3.3em;
                                             height: 3.3em;
+                                            width: 2.8em;
+                                            height: 2.8em;
                                             position: absolute;
                                         }
                                         #html.tapped {
@@ -649,6 +648,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1rem;
+                                            font-size: .9rem;
                                         }
                                         #html_description.tapped {
                                             opacity: 1;
@@ -658,10 +658,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         /// CSS
                                         #css {
-                                            width: 4.2em;
-                                            height: 4.2em;
                                             width: 3.8em;
                                             height: 3.8em;
+                                            width: 3em;
+                                            height: 3em;
                                             position: absolute;
                                         }
                                         #css.tapped {
@@ -673,6 +673,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1rem;
+                                            font-size: .9rem;
                                         }
                                         #css_description.tapped {
                                             opacity: 1;
@@ -684,6 +685,9 @@ $buttongrey: #61677A;
                                         #sass {
                                             width: 3em;
                                             height: 2.8em;
+                                            width: 2.8em;
+                                            height: 2.3em;
+                                            margin-right: -.2em;
                                             position: absolute; 
                                         }
                                         #sass.tapped {
@@ -695,6 +699,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #sass_description.tapped {
                                             opacity: 1;
@@ -706,6 +711,8 @@ $buttongrey: #61677A;
                                         #react {
                                             width: 3.5em;
                                             height: 3.5em;
+                                            width: 2.6em;
+                                            height: 2.6em;
                                             position: absolute; 
                                         }
                                         #react.tapped {
@@ -717,6 +724,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #react_description.tapped {
                                             opacity: 1;
@@ -726,10 +734,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         /// NATIVE
                                         #native {
-                                            width: 2.5em;
-                                            height: 2.5em;
                                             width: 4em;
                                             height: 4em;
+                                            width: 3em;
+                                            height: 3em;
                                             position: absolute;
                                             margin-top: -.2em; 
                                         }
@@ -742,6 +750,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #native_description.tapped {
                                             opacity: 1;
@@ -751,10 +760,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         /// FIGMA
                                         #figma {
-                                            width: 2.1em;
-                                            height: 2.1em;
                                             width: 3.7em;
                                             height: 3.7em;
+                                            width: 2.9em;
+                                            height: 2.9em;
                                             position: absolute;
                                             margin-top: -.2em;  
                                         }
@@ -767,6 +776,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #figma_description.tapped {
                                             opacity: 1;
@@ -776,12 +786,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         /// JAVASCRIPT
                                         #javascript {
-                                            // width: 2.6em;
-                                            // height: 2.6em;
-                                            width: 2.3em;
-                                            height: 2.7em;
                                             width: 3em;
                                             height: 3em;
+                                            width: 2.5em;
+                                            height: 2.5em;
                                             position: absolute; 
                                             // margin-top: -.4em;
                                         }
@@ -805,10 +813,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         // PYTHON
                                         #python {
-                                            width: 2.5em;
-                                            height: 2.5em;
                                             width: 3em;
                                             height: 3em;
+                                            width: 2.4em;
+                                            height: 2.4em;
                                             position: absolute;
                                             margin-top: -.2em;
                                         }
@@ -821,6 +829,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #python_description.tapped {
                                             opacity: 1;
@@ -830,10 +839,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         // DJANGO
                                         #django {
-                                            width: 2em;
-                                            height: 2em;
                                             width: 3em;
                                             height: 3em;
+                                            width: 2.4em;
+                                            height: 2.4em;
                                             margin-left: -.5em;
                                             position: absolute;
                                         }
@@ -846,6 +855,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #django_description.tapped {
                                             opacity: 1;
@@ -856,9 +866,9 @@ $buttongrey: #61677A;
                                         // FIREBASE
                                         #firebase {
                                             width: 3em;
-                                            height: 2.7em;
-                                            width: 3em;
                                             height: 3.5em;
+                                            width: 2.5em;
+                                            height: 2.8em;
                                             position: absolute;
                                             // margin-right: -.3em;
                                             // margin-top: -.2em;
@@ -872,6 +882,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #firebase_description.tapped {
                                             opacity: 1;
@@ -881,10 +892,10 @@ $buttongrey: #61677A;
                                         //////////////////////////
                                         // HEROKU
                                         #heroku {
-                                            width: 2.1em;
-                                            height: 2.1em;
                                             width: 3.2em;
                                             height: 3.2em;
+                                            width: 2.7em;
+                                            height: 2.7em;
                                             // margin-left: -.5em;
                                             margin-top: -.2em;
                                             position: absolute;
@@ -898,6 +909,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #heroku_description.tapped {
                                             opacity: 1;
@@ -909,6 +921,8 @@ $buttongrey: #61677A;
                                         #aws {
                                             width: 3em;
                                             height: 2.5em;
+                                            width: 2.5em;
+                                            height: 2em;
                                             // margin-top: -.4em;
                                             // margin-left: -.5em;
                                             position: absolute;
@@ -922,6 +936,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            font-size: .9rem;
                                         }
                                         #aws_description.hover {
                                             opacity: 1;
@@ -1009,7 +1024,7 @@ $buttongrey: #61677A;
                                     display: flex;
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
-                                    gap: .5em;
+                                    // gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
                                 }
@@ -1017,7 +1032,7 @@ $buttongrey: #61677A;
                                     display: flex;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
-                                    gap: .5em;
+                                    // gap: .5em;
                                 }
                             }
                             // THE SECOND SIX
@@ -1031,13 +1046,13 @@ $buttongrey: #61677A;
                                 display: flex;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1.5em;
-                                gap: .5em;
+                                // gap: .5em;
                                }
                                .bottom_three {
                                     display: flex;
                                     // HORIZ GAP FOR BOTTOM 3
                                     gap: 1.5em;
-                                    gap: .5em;
+                                    // gap: .5em;
                                }
                             }
                         }
