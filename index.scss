@@ -769,7 +769,7 @@ $buttongrey: #61677A;
                                             position: absolute;
                                             margin-top: -.2em;  
                                         }
-                                        #figma.hover {
+                                        #figma.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -995,6 +995,13 @@ $buttongrey: #61677A;
                             box-shadow: none;
                         }
                         #native_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #figma_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
@@ -2152,6 +2159,7 @@ $buttongrey: #61677A;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
+                                            text-align: center;
                                         }
                                         #native_description.hover {
                                             opacity: 1;

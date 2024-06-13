@@ -147,6 +147,20 @@ native_skill_circle.addEventListener('pointerdown', () => {
     }
     setTimeout(reset_native, 3500);
 });
+// FIGMA CIRCLE
+figma_skill_circle.addEventListener('pointerdown', () => {
+    figma_skill_circle.classList.add('tapped');
+    line_figma.classList.add('tapped');
+    figma_skill.classList.add('tapped');
+    figma_description.classList.add('tapped');
+    function reset_figma() {
+        figma_skill_circle.classList.remove('tapped');
+        line_figma.classList.remove('tapped');
+        figma_skill.classList.remove('tapped');
+        figma_description.classList.remove('tapped');
+    }
+    setTimeout(reset_figma, 3500);
+});
 
 // Desktops
 

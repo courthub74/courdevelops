@@ -601,7 +601,7 @@
     position: absolute;
     margin-top: -0.2em;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #figma.tapped {
     opacity: 0;
     transition: 0.3s all ease-in;
   }
@@ -788,6 +788,12 @@
     box-shadow: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content #native_skill.tapped {
+    border: 3px solid #00C6C3;
+    transition: 0.2s all ease-in;
+    box-sizing: border-box;
+    box-shadow: none;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content #figma_skill.tapped {
     border: 3px solid #00C6C3;
     transition: 0.2s all ease-in;
     box-sizing: border-box;
@@ -1709,6 +1715,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
+    text-align: center;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #native_description.hover {
     opacity: 1;
