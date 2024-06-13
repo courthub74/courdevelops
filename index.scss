@@ -204,6 +204,7 @@ $buttongrey: #61677A;
                             }
                         }
                         .mobile_nav {
+                            display: none;
                             #mobile_nav {
                                 width: 2em;
                                 height: 2em;
@@ -270,6 +271,7 @@ $buttongrey: #61677A;
                             }
                         }
                         .mobile_nav {
+                            display: none;
                             #mobile_nav {
                                 width: 2em;
                                 height: 2em;
@@ -547,6 +549,7 @@ $buttongrey: #61677A;
                             }
                         }
                         .mobile_nav {
+                            display: none;
                             #mobile_nav {
                                 width: 2em;
                                 height: 2em;
@@ -1075,6 +1078,7 @@ $buttongrey: #61677A;
                             }
                         }
                         .mobile_nav {
+                            display: none;
                             #mobile_nav {
                                 width: 2em;
                                 height: 2em;
@@ -1454,7 +1458,7 @@ $buttongrey: #61677A;
                             z-index: 1;
                             #home_logo {
                                 border-radius: 50%;
-                                border: 2px solid $nextgreen;
+                                border: 3px solid $nextgreen;
                                 // border: 2px solid $skillsteal;
                             }
                         }
@@ -1475,7 +1479,7 @@ $buttongrey: #61677A;
                                 background-color: $portfolios;
                                 background-color: $nextgreen;
                                 background-color: $footerblue;
-                                border-top: 2px solid $nextgreen;
+                                border-top: 3px solid $nextgreen;
                                 // border-top: 2px solid $skillsteal;
                                 padding: .5em 2.5em;
                                 margin: 0 0 0 -1.2em;
@@ -1520,7 +1524,7 @@ $buttongrey: #61677A;
                                 font-weight: bold;
                                 // color: $footerblue;
                                 padding: 1em 7em;
-                                border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                border-top: 3px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 font-weight: bold;

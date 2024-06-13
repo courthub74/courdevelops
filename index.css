@@ -137,6 +137,9 @@
   body #whole_page .whole_page .about_section .about_section_content .about_desktop_nav ul {
     display: none;
   }
+  body #whole_page .whole_page .about_section .about_section_content .mobile_nav {
+    display: none;
+  }
   body #whole_page .whole_page .about_section .about_section_content .mobile_nav #mobile_nav {
     width: 2em;
     height: 2em;
@@ -187,6 +190,9 @@
     font-weight: bold;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .mobile_nav {
     display: none;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .mobile_nav #mobile_nav {
@@ -404,6 +410,9 @@
     font-weight: bold;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .skills_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .skills_section .skills_section_content .mobile_nav {
     display: none;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .mobile_nav #mobile_nav {
@@ -831,6 +840,9 @@
   body #whole_page .experience_section .experience_section_content .experience_desktop_nav ul {
     display: none;
   }
+  body #whole_page .experience_section .experience_section_content .mobile_nav {
+    display: none;
+  }
   body #whole_page .experience_section .experience_section_content .mobile_nav #mobile_nav {
     width: 2em;
     height: 2em;
@@ -1118,7 +1130,7 @@
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
     border-radius: 50%;
-    border: 2px solid #00313E;
+    border: 3px solid #00313E;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
     display: flex;
@@ -1136,7 +1148,7 @@
     background-color: #36395D;
     background-color: #00313E;
     background-color: #060927;
-    border-top: 2px solid #00313E;
+    border-top: 3px solid #00313E;
     padding: 0.5em 2.5em;
     margin: 0 0 0 -1.2em;
   }
@@ -1177,7 +1189,7 @@
     color: white;
     font-weight: bold;
     padding: 1em 7em;
-    border-top: 2px solid rgba(255, 255, 255, 0.664);
+    border-top: 3px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
