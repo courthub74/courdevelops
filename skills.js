@@ -133,7 +133,7 @@ react_skill_circle.addEventListener('pointerdown', () => {
     }
     setTimeout(reset_react, 3500);
 });
-
+// NATIVE CIRCLE
 
 // Desktops
 

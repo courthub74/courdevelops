@@ -1459,13 +1459,13 @@
     opacity: 1;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_one.hover {
-    border-top: 2px solid white;
+    border-top: 3px solid white;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_two.hover {
-    border-top: 2px solid white;
+    border-top: 3px solid white;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares #portfolio_square_three.hover {
-    border-top: 2px solid white;
+    border-top: 3px solid white;
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
@@ -1988,7 +1988,7 @@
     width: 28%;
     border-top: 3px solid #00313E;
     border-top: 3px solid #146166;
-    border-top: 2px solid #61677A;
+    border-top: 3px solid #61677A;
     box-shadow: 2px 2px 2px black;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
@@ -2044,21 +2044,21 @@
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
-    border-top: 2px solid white;
+    border-top: 3px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
-    border-top: 2px solid white;
+    border-top: 3px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
   body #whole_page .whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.hover {
     border-top: 5px solid #146166;
     border-top: 5px solid #00C6C3;
-    border-top: 2px solid white;
+    border-top: 3px solid white;
     transition: 0.3s all ease-in-out;
     box-sizing: border-box;
   }
