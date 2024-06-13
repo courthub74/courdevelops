@@ -134,6 +134,19 @@ react_skill_circle.addEventListener('pointerdown', () => {
     setTimeout(reset_react, 3500);
 });
 // NATIVE CIRCLE
+native_skill_circle.addEventListener('pointerdown', () => {
+    native_skill_circle.classList.add('tapped');
+    line_native.classList.add('tapped');
+    native_skill.classList.add('tapped');
+    native_description.classList.add('tapped');
+    function reset_native() {
+        native_skill_circle.classList.remove('tapped');
+        line_native.classList.remove('tapped');
+        native_skill.classList.remove('tapped');
+        native_description.classList.remove('tapped');
+    }
+    setTimeout(reset_native, 3500);
+});
 
 // Desktops
 

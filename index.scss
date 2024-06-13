@@ -741,7 +741,7 @@ $buttongrey: #61677A;
                                             position: absolute;
                                             margin-top: -.2em; 
                                         }
-                                        #native.hover {
+                                        #native.tapped {
                                             opacity: 0;
                                             transition: .3s all ease-in;
                                         }
@@ -751,6 +751,8 @@ $buttongrey: #61677A;
                                             font-family: 'Inter', sans-serif;
                                             font-size: 1.2rem;
                                             font-size: .9rem;
+                                            //margin: 0 -.6em 0 0;
+                                            text-align: center;
                                         }
                                         #native_description.tapped {
                                             opacity: 1;
@@ -986,6 +988,13 @@ $buttongrey: #61677A;
                             box-shadow: none;
                         }
                         #react_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
+                        #native_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;
