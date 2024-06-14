@@ -1008,7 +1008,38 @@ $buttongrey: #61677A;
                             // background-color: $nextgreen;
                             box-shadow: none;
                         }
+                        #javascript_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            // background-color: $nextgreen;
+                            box-shadow: none;
+                        }
                         #python_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            box-shadow: none;
+                        }
+                        #django_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            box-shadow: none;
+                        }
+                        #firebase_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            box-shadow: none;
+                        }
+                        #heroku_skill.tapped {
+                            border: 3px solid $jobdescription;
+                            transition: .2s all ease-in;
+                            box-sizing: border-box;
+                            box-shadow: none;
+                        }
+                        #aws_skill.tapped {
                             border: 3px solid $jobdescription;
                             transition: .2s all ease-in;
                             box-sizing: border-box;

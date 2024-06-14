@@ -161,7 +161,48 @@ figma_skill_circle.addEventListener('pointerdown', () => {
     }
     setTimeout(reset_figma, 3500);
 });
-
+// JAVASCRIPT CIRCLE
+javascript_skill_circle.addEventListener('pointerdown', () => {
+    javascript_skill_circle.classList.add('tapped');
+    line_javascript.classList.add('tapped');
+    javascript_skill.classList.add('tapped');
+    javascript_description.classList.add('tapped');
+    function reset_javascript () {
+        javascript_skill_circle.classList.remove('tapped');
+        line_javascript.classList.remove('tapped');
+        javascript_skill.classList.remove('tapped');
+        javascript_description.classList.remove('tapped');
+    }
+    setTimeout(reset_javascript, 3500);
+})
+// PYTHON CIRCLE 
+python_skill_circle.addEventListener('pointerdown', () => {
+    python_skill_circle.classList.add('tapped');
+    line_python.classList.add('tapped');
+    python_skill.classList.add('tapped');
+    python_description.classList.add('tapped');
+    function reset_python () {
+        python_skill_circle.classList.remove('tapped');
+        line_python.classList.remove('tapped');
+        python_skill.classList.remove('tapped');
+        python_description.classList.remove('tapped');
+    }
+    setTimeout(reset_python, 3500);
+});
+// DJANGO CIRCLE
+django_skill_circle.addEventListener('pointerdown', () => {
+    django_skill_circle.classList.add('tapped');
+    line_django.classList.add('tapped');
+    django_skill.classList.add('tapped');
+    django_description.classList.add('tapped');
+    function reset_django () {
+        django_skill_circle.classList.remove('tapped');
+        line_django.classList.remove('tapped');
+        django_skill.classList.remove('tapped');
+        django_description.classList.remove('tapped');
+    }
+    setTimeout(reset_django, 3500);
+});
 // Desktops
 
 // For any screen larger than the average tablet
