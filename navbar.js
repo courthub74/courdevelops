@@ -51,4 +51,6 @@ portfolio_section_click.addEventListener('pointerdown', () => {
 // NEXT STEPS
 // Position the list and burger properly
 // settle the tapping order
+// STOP the body scroll when menu list is on
+// add a close button to the menu list
 // Then upon Scroll up bring the NavBar back
