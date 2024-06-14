@@ -217,6 +217,34 @@ firebase_skill_circle.addEventListener('pointerdown', () => {
     }
     setTimeout(reset_firebase, 3500);
 });
+// POSTGRE/HEROKU CIRCLE
+heroku_skill_circle.addEventListener('pointerdown', () => {
+    heroku_skill_circle.classList.add('tapped');
+    line_heroku.classList.add('tapped');
+    heroku_skill.classList.add('tapped');
+    heroku_description.classList.add('tapped');
+    function reset_heroku () {
+        heroku_skill_circle.classList.remove('tapped');
+        line_heroku.classList.remove('tapped');
+        heroku_skill.classList.remove('tapped');
+        heroku_description.classList.remove('tapped');
+    }
+    setTimeout(reset_heroku, 3500);
+});
+// AWS CIRCLE
+aws_skill_circle.addEventListener('pointerdown', () => {
+    aws_skill_circle.classList.add('tapped');
+    line_aws.classList.add('tapped');
+    aws_skill.classList.add('tapped');
+    aws_description.classList.add('tapped');
+    function reset_aws () {
+        aws_skill_circle.classList.remove('tapped');
+        line_aws.classList.remove('tapped');
+        aws_skill.classList.remove('tapped');
+        aws_description.classList.remove('tapped');
+    }
+    setTimeout(reset_aws, 3500);
+});
 
 
 ////////////////////////////////////////////////

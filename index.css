@@ -747,7 +747,7 @@
     font-size: 1.2rem;
     font-size: 0.9rem;
   }
-  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.hover {
+  body #whole_page .whole_page .skills_section .skills_section_content .outer_circle .back_circle .circle_stuff .skill_contents #aws_description.tapped {
     opacity: 1;
     transition: 0.5s all ease-in;
   }
