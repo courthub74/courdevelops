@@ -86,9 +86,9 @@ $buttongrey: #61677A;
                         /// HERE is where you manip the dom
                         //////for list to dissapear and reappear
                         #home_desktop_nav {
-                            opacity: 0;
+                            //opacity: 0;
                             // display: flex;
-                            // display: none;
+                            display: none;
                             // // background-color: #00C6C3;
                             // background-color: $darkblue;
                             // padding: 2em 2em;
@@ -156,7 +156,7 @@ $buttongrey: #61677A;
                             margin: 1.5em -10em 0 0em;
                             background: none;
                             border: none;
-                            z-index: 10;
+                            z-index: 25;
                             // background-color: #58a6ff;
                             transition: .5s all ease-in;
                             #mobile_nav {
@@ -170,7 +170,7 @@ $buttongrey: #61677A;
                             opacity: 0;
                          }
                         }
-                        .menu_and_list.tapped {
+                        .menu_and_list.dissapear {
                             opacity: 0;
                         }
                     }

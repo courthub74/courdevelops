@@ -32,7 +32,7 @@ about_section_click.addEventListener('pointerdown', () => {
         console.log("Timed Out Happened");
         mobile_nav_burger.classList.remove('tapped');
         home_desktop_nav.classList.remove('tapped');
-        menu_and_list.classList.add('tapped');
+        menu_and_list.classList.add('dissapear');
     }
     setTimeout(menu_time_out, 2000);
 });
@@ -43,7 +43,12 @@ portfolio_section_click.addEventListener('pointerdown', () => {
         console.log("Timed Out Happened");
         mobile_nav_burger.classList.remove('tapped');
         home_desktop_nav.classList.remove('tapped');
-        menu_and_list.classList.add('tapped');
+        menu_and_list.classList.add('dissapear');
     }
     setTimeout(menu_time_out, 2000);
 });
+
+// NEXT STEPS
+// Position the list and burger properly
+// settle the tapping order
+// Then upon Scroll up bring the NavBar back
