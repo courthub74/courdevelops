@@ -23,7 +23,9 @@
   body #whole_page .whole_page .home_section_content .desktop_nav {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: #080E2F;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav .title_nav {
     margin: 4em 0 0 0;
@@ -31,12 +33,43 @@
   body #whole_page .whole_page .home_section_content .desktop_nav .title_nav .section_title {
     opacity: 0;
   }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav {
+    opacity: 0;
+    display: flex;
+    background-color: #080E2F;
+    padding: 2em 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 -17em;
+  }
   body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul {
-    display: none;
+    display: flex;
+    gap: 0.9em;
+    font-size: 0.8rem;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li {
+    list-style: none;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .mobile_nav {
+    margin: 1.5em -3em 0 0;
+    background: none;
+    border: none;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav .mobile_nav #mobile_nav {
-    width: 2em;
-    height: 2em;
+    width: 2.5em;
+    height: 2.5em;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .mobile_nav.tapped {
+    opacity: 0;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square {
     display: flex;
