@@ -43,6 +43,7 @@ portfolio_section_click.addEventListener('pointerdown', () => {
         console.log("Timed Out Happened");
         mobile_nav_burger.classList.remove('tapped');
         home_desktop_nav.classList.remove('tapped');
+        menu_and_list.classList.add('tapped');
     }
     setTimeout(menu_time_out, 2000);
 });
