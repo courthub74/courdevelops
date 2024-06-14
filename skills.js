@@ -203,6 +203,24 @@ django_skill_circle.addEventListener('pointerdown', () => {
     }
     setTimeout(reset_django, 3500);
 });
+// FIREBASE CIRCLE
+firebase_skill_circle.addEventListener('pointerdown', () => {
+    firebase_skill_circle.classList.add('tapped');
+    line_firebase.classList.add('tapped');
+    firebase_skill.classList.add('tapped');
+    firebase_description.classList.add('tapped');
+    function reset_firebase () {
+        firebase_skill_circle.classList.remove('tapped');
+        line_firebase.classList.remove('tapped');
+        firebase_skill.classList.remove('tapped');
+        firebase_description.classList.remove('tapped');
+    }
+    setTimeout(reset_firebase, 3500);
+});
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
 // Desktops
 
 // For any screen larger than the average tablet
