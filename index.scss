@@ -76,12 +76,32 @@ $buttongrey: #61677A;
                                 display: none;
                             }
                         }
-                        .mobile_nav {
-                            #mobile_nav {
-                               width: 2em;
-                               height: 2em;
+                        // The Circle Button 
+                        .nav_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 2px solid white;
+                            border-radius: 50%;
+                            height: 4em;
+                            width: 4em;
+                            .inner_nav_button {
+                                background-color: white;
+                                color: $darkblue;
+                                font-weight: bold;
+                                border: none;
+                                height: 3.5em;
+                                width: 3.5em;
+                                border-radius: 50%;
                             }
-                         }
+                        }
+                        // For the Hamburger
+                        // .mobile_nav {
+                        //     #mobile_nav {
+                        //        width: 2em;
+                        //        height: 2em;
+                        //     }
+                        //  }
                    }
                    .big_logo_and_square {
                         display: flex;
