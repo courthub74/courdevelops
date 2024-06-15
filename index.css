@@ -15,26 +15,36 @@
     height: 500vh;
   }
   body #whole_page .whole_page .home_section_content {
-    margin: 0 3em 0 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 1em 0 1em;
     padding: 0em 0 4em 0;
     height: 100vh;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: #080E2F;
+    position: fixed;
+    top: 0;
   }
   body #whole_page .whole_page .home_section_content .desktop_nav .title_nav {
-    margin: 4em 0 0 0;
-  }
-  body #whole_page .whole_page .home_section_content .desktop_nav .title_nav .section_title {
-    opacity: 0;
-  }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul {
     display: none;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .nav_button {
+  body #whole_page .whole_page .home_section_content .desktop_nav .menu_and_button {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .menu_and_button .home_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .home_section_content .desktop_nav .menu_and_button .nav_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +52,9 @@
     border-radius: 50%;
     height: 3em;
     width: 3em;
-    margin: 1.5em 0 0 -4.5em;
+    margin: 0.5em 0 0 -4.5em;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .nav_button .inner_nav_button {
+  body #whole_page .whole_page .home_section_content .desktop_nav .menu_and_button .nav_button .inner_nav_button {
     background-color: white;
     color: #080E2F;
     font-weight: bold;
