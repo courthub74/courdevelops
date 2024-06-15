@@ -83,16 +83,23 @@ $buttongrey: #61677A;
                             align-items: center;
                             border: 2px solid white;
                             border-radius: 50%;
-                            height: 4em;
-                            width: 4em;
+                            height: 3em;
+                            width: 3em;
+                            margin: 1.5em 0 0 -4.5em;
                             .inner_nav_button {
                                 background-color: white;
                                 color: $darkblue;
                                 font-weight: bold;
                                 border: none;
-                                height: 3.5em;
-                                width: 3.5em;
+                                height: 2.4em;
+                                width: 2.4em;
                                 border-radius: 50%;
+                                font-family: 'Inter', sans-serif;
+                                font-size: .7rem;
+                                padding: 2em;
+                                display: flex;
+                            justify-content: center;
+                            align-items: center;
                             }
                         }
                         // For the Hamburger
@@ -1492,6 +1499,10 @@ $buttongrey: #61677A;
                                 height: 9em;
                             }
                         }
+                        // Div for the Mobile Home nav
+                        .menu_and_button {
+
+                        }
                         .home_desktop_nav {
                             ul {
                                 display: flex;
@@ -1526,6 +1537,14 @@ $buttongrey: #61677A;
                             }
                         }
                     }
+                    // Mobile Circle Menu
+                    .menu_and_button {
+                        margin-top: 1em;
+                        .nav_button {
+                            display: none;
+                        }
+                    }
+                    // Burger Menu
                     .mobile_nav {
                         display: none;
                     }
