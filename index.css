@@ -1160,50 +1160,54 @@
     padding: 2em 5em 15em 5em;
     padding: 2em 5em 20em 5em;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav {
+  body #whole_page .whole_page .home_section_content #desktop_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.4s all ease-out;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .section_title p {
+  body #whole_page .whole_page .home_section_content #desktop_nav .section_title p {
     font-family: "Inter", sans-serif;
     font-size: 3rem;
     font-weight: bold;
     color: white;
     opacity: 0;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .section_title #home_logo {
+  body #whole_page .whole_page .home_section_content #desktop_nav .section_title #home_logo {
     width: 9em;
     height: 9em;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul {
+  body #whole_page .whole_page .home_section_content #desktop_nav .home_desktop_nav ul {
     display: flex;
     gap: 20px;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li {
+  body #whole_page .whole_page .home_section_content #desktop_nav .home_desktop_nav ul li {
     list-style: none;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li a {
+  body #whole_page .whole_page .home_section_content #desktop_nav .home_desktop_nav ul li a {
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li #selected {
+  body #whole_page .whole_page .home_section_content #desktop_nav .home_desktop_nav ul li #selected {
     text-decoration: underline;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav .home_desktop_nav ul li #contact {
+  body #whole_page .whole_page .home_section_content #desktop_nav .home_desktop_nav ul li #contact {
     background-color: white;
     padding: 0.5em;
     border-radius: 2px;
     color: #080E2F;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav ul {
+  body #whole_page .whole_page .home_section_content #desktop_nav ul {
     display: flex;
     gap: 5px;
   }
-  body #whole_page .whole_page .home_section_content .desktop_nav ul li {
+  body #whole_page .whole_page .home_section_content #desktop_nav ul li {
     color: white;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav.dissapear {
+    opacity: 0;
   }
   body #whole_page .whole_page .home_section_content .menu_and_button {
     margin-top: 1em;

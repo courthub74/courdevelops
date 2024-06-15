@@ -1495,10 +1495,11 @@ $buttongrey: #61677A;
                     // Maybe it doesn't need a height here
                     padding: 2em 5em 15em 5em;
                     padding: 2em 5em 20em 5em;
-                    .desktop_nav {
+                    #desktop_nav {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
+                        transition: .4s all ease-out;
                         // margin-top: 2em;
                         .section_title {
                             p {
@@ -1514,9 +1515,9 @@ $buttongrey: #61677A;
                             }
                         }
                         // Div for the Mobile Home nav
-                        .menu_and_button {
+                        // .menu_and_button {
 
-                        }
+                        // }
                         .home_desktop_nav {
                             ul {
                                 display: flex;
@@ -1550,6 +1551,10 @@ $buttongrey: #61677A;
                                 color: white;
                             }
                         }
+                    }
+                    // Nav Dissapeared
+                    #desktop_nav.dissapear {
+                        opacity: 0;
                     }
                     // Mobile Circle Menu
                     .menu_and_button {
