@@ -19,6 +19,10 @@ window.addEventListener('scroll', () => {
         } else {
             top_nav.classList.remove('dissapear');
         }
+        // Make the Nav reappear at zero
+        if (currentScroll === 0) {
+            top_nav.classList.remove('dissapear');
+        }
         // set the current scroll to the last scroll
         lastScroll = currentScroll;
 });
