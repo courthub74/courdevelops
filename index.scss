@@ -63,7 +63,7 @@ $buttongrey: #61677A;
                     padding: 0em 0 4em 0;
                     height: 100vh;
                     // border-bottom: 1px solid white;
-                   .desktop_nav {
+                   #desktop_nav {
                     // Make THIS sticky
                        display: flex;
                        justify-content: center;
@@ -72,6 +72,8 @@ $buttongrey: #61677A;
                        background-color: $darkblue;
                        position: fixed;
                        top: 0;
+                       transition: .3s all ease-in;
+                       z-index: 50;
                         .title_nav {
                             display: none;
                         }
@@ -207,6 +209,10 @@ $buttongrey: #61677A;
                             }
                         }
                    }
+                }
+                // Nav Dissapeared
+                #desktop_nav.dissapear {
+                    opacity: 0;
                 }
                 ////////////////////////////////////////
                 ////////////////////////////////////////
@@ -1495,11 +1501,12 @@ $buttongrey: #61677A;
                     // Maybe it doesn't need a height here
                     padding: 2em 5em 15em 5em;
                     padding: 2em 5em 20em 5em;
-                    #desktop_nav {
+                    .desktop_nav {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
                         transition: .4s all ease-out;
+                        // background-color: #00313E;
                         // margin-top: 2em;
                         .section_title {
                             p {
@@ -1552,13 +1559,10 @@ $buttongrey: #61677A;
                             }
                         }
                     }
-                    // Nav Dissapeared
-                    #desktop_nav.dissapear {
-                        opacity: 0;
-                    }
                     // Mobile Circle Menu
                     .menu_and_button {
                         margin-top: 1em;
+                    
                         .nav_button {
                             display: none;
                         }

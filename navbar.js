@@ -21,4 +21,4 @@ window.addEventListener('scroll', () => {
         }
         // set the current scroll to the last scroll
         lastScroll = currentScroll;
-})
+});
